@@ -1,4 +1,4 @@
-# .obj to .ply file Format Converter 
+# .obj to .ply file converter
 Convert .obj file format to .ply file format with vertex colors.
 
 ## Command to Run
