@@ -6,4 +6,4 @@ Run the following command in the root folder
 ```
 python convert.py --input [objfilename.obj] --output [plyfilename.ply]
 ```
-**_Note: Obj file must not have vertex normals_**
+**_Note: Code cannot be used for obj files containing vertex normals and vertex textures_**
