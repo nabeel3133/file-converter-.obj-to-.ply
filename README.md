@@ -10,6 +10,8 @@ python convert.py --input [objfilename.obj] --output [plyfilename.ply]
 ```
 python convert.py --input sample.obj --output sample.ply
 ```
-The above code will take "sample.obj" and convert it to ply format with the output file named "sample.ply" without vertex colors and 'sampleWithRGB.ply' with vertex colors
+The above code will take "sample.obj" and convert it to ply format with the output files named:
+1. "sample.ply" without vertex colors 
+2. "sampleWithRGB.ply" with vertex colors
 
 **Note: Code cannot be used for obj files containing vertex normals and vertex textures**
