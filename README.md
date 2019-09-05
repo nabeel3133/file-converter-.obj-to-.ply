@@ -14,4 +14,4 @@ The above code will take "sample.obj" and convert it to ply format with the outp
 1. "sample.ply" without vertex colors 
 2. "sampleWithRGB.ply" with vertex colors
 
-**Note: Code cannot be used for obj files containing vertex normals and vertex textures**
+**Note: Code cannot be used for obj files containing list of vertex normals and texture coordinates**
