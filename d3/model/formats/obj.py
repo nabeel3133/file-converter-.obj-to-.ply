@@ -55,7 +55,7 @@ class OBJParser(TextModelParser):
 
             for i in range(len(splits)):
                 for j in range(len(splits[i])):
-                    if splits[i][j] is not '':
+                    if splits[i][j] != '':
                         splits[i][j] = int(splits[i][j])
                         if splits[i][j] > 0:
                             splits[i][j] -= 1
